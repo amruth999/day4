@@ -1,0 +1,18 @@
+struct sum
+{
+   int a[100];
+   int b;
+};
+
+struct sum compute()
+{
+   struct sum i;
+   i.add = 0;
+   for(int k = 0; k<i.b;k++)
+   {
+       i.add = i.add + i.a[k];
+   }
+   return i;
+}
+
+
