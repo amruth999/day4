@@ -1,0 +1,22 @@
+
+
+struct sum
+{
+   int a[100];
+   int b;
+}
+
+
+struct sum input()
+{
+   struct sum i;
+   printf("How manyn elements you want to add?\n");
+   scanf("%d",&i.b);
+   printf("Enter elements:\n");
+   for(int k=0;k<i.b;k++)
+   {
+       scanf("%d",&i.a[k]);
+   }
+   return i;
+}
+
