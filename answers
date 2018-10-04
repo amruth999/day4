@@ -1,6 +1,6 @@
-6. Array is set of similar data type.
+6.An array is a collection of data items, all of the same type, accessed using a common name
 
-7. Array index is the position of elements stored in an array.
+7.The array index in C starts with 0 because in C the name of an array is a pointer, which is a reference to a memory location
 
 8. If we don’t know the exact value of n, then we can’t define n variables in the function. So, we should use an array.
 
