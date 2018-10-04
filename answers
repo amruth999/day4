@@ -1,0 +1,21 @@
+6. Array is set of similar data type.
+
+7. Array index is the position of elements stored in an array.
+
+8. If we don’t know the exact value of n, then we can’t define n variables in the function. So, we should use an array.
+
+9.No. We can’t pass an array by value in c. But, we can pass array by reference to its address.
+
+10. For loop execute a set of commands n number of times as per given.
+
+11.For loops are normally used when we need a command to iterate again and again for n number of times.
+
+12.It should be a countable set of numbers and should be in ordered pair that’s why integer is used as array index always.
+
+13. X = x+10 in a for(i=0;i<10;i++) means iterating the same program for the 10 times i.e, x will be added by 10 for the 10 times.
+
+14.Only one time, i=0 is executed at the entrance of for loop.
+
+15. i<n is executed for n times as to check the condition if it is true or not. If the condition will be true then, it will go inside the for loop.
+
+16. I++ is executed n-1 times as the increment operator in for loop for changing the values of i.
