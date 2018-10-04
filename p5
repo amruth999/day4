@@ -1,0 +1,54 @@
+#include<stdio.h>
+#include<math.h>
+
+struct sum
+{
+   int a[100];
+   int b;
+   int tmp;
+   int add;
+};
+
+
+struct sum input()
+{
+   struct sum i;
+   printf("How many elements you want to give?\n");
+   scanf("%d",&i.b);
+   printf("Enter elements:\n");
+   for(int k=0;k<i.b;k++)
+   {
+       scanf("%d",&i.a[k]);
+   }
+   return i;
+}
+
+struct sum compute()
+{
+   struct sum i;
+   int k = 0;
+   i.tmp = i.a[k];
+   for(k=0;k<i.b;k++)
+   {
+       if(i.tmp>i.a[k])
+   {
+       i.tmp = i.a[k];
+   }
+   }
+   return i;
+}
+
+struct sum output()
+{
+   struct sum i;
+   printf("Smallest of all the numbers is %d\n",i.tmp);
+}
+
+int main()
+{
+   struct sum i;
+   input();
+   compute();
+   output();
+   return 0;
+}
